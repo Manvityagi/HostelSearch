@@ -1,0 +1,287 @@
+.top
+{
+    top:0;
+    width:100%;
+    background-color: white;
+    height:40px;
+}
+HEADER
+{
+    display:block;
+}
+.login 
+{
+text-align: left;
+}
+.signup
+{
+    float:right;
+}
+.navbar
+{   
+    height:40px;
+    color:white;
+
+font-family: Roboto, sans-serif;
+font-size: 14.004px;
+font-style: normal;
+font-variant-caps: normal;
+font-variant-east-asian: normal;
+font-variant-ligatures: normal;
+font-variant-numeric: normal;
+font-weight: 300;
+    width:100%;
+    background-color: #cc0000;
+    display:block;
+}
+.navbar a{text-decoration:none;
+color: white;
+font-weight: bold;
+}
+.navbar-content
+{
+    color:white;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-weight:  bold; 
+}
+#search
+{
+    padding: 0px;
+    margin: 0px;
+    margin-left:10%;
+}
+input [type=search] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+}
+.top_menu
+{
+    padding:2px;
+    margin:2px;
+    margin-top:0;
+}
+.navbar-content li
+{
+    color: #f1f1f1;
+    display:inline-block;
+    list-style:none;
+    padding:5px;
+    margin:2px; 
+    font-family:bold 20px "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace; 
+}
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+#bookings
+{ 
+  margin-right: 0;
+background-color: pink;
+height:100%;
+}
+
+.bg-img {
+  /* The image used */
+
+background-image: url("image/WEDDING.jpg");
+  /* Control the height of the image */
+  min-height: 600px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  top:10px;
+  margin: 20px;
+  max-width: 15%;
+  padding: 16px;
+  color:green;
+ 
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+ #submit-icon {
+  background-image: url("image/search.png"); 
+  background-size: cover;
+  border: none;
+  width: 50px;
+  height: 25px;
+  cursor: pointer;
+  color: transparent;
+}
+#category
+{ margin-top:50px;
+height:150px;
+width:100px;
+margin-right:50px;
+border-radius:2%;
+}
+/*CSS of category dropdown*/
+  .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 500;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.desc {
+  padding: 20px;
+  text-align: center;
+  width:400;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+aside{
+    float: right;
+width:15%;
+}
+#description
+{
+    right:0;
+    width:50%;
+    postion: absolute;
+}
+main
+{
+    height:100%;
+    float:left;
+    background-color: gray;
+    width:85%;
+}
+#searchbox
+{   margin-left: 10%;
+    -webkit-border-radius:14px;
+    height:30px;
+    width:500px;
+    border:0;
+}
+footer
+{
+    width:100%;
+    background-color:white;
+    color:white;
+    height:200px;
+}
+#blog
+{
+    height: 25%;
+    width:40%;
+    -webkit-border-radius: 10px;
+    border-color: black;
+    background-color: darkslategrey;
+}
+#jump li
+{
+    display:inline;
+}
+#lawandjudgments
+{
+    height:50px;
+    background-color: black;
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+h1
+{
+    margin:0;
+    text-align:center;
+    top:20;
+}
+#videos
+{
+    height:50px;
+    background-color: blue;
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+#testimonial
+{
+    height:50px;
+    background-color: darkslategray;
+    color:white;
+    font-family: "Roboto", sans-serif;
+}
+.noscroll { 
+  overflow: hidden;
+}
+
+.overlay { 
+   position: fixed; 
+   overflow-y: scroll;
+   top: 0; right: 0; bottom: 0; left: 0; }
+
+[aria-hidden="true"]  { display: none; }
+[aria-hidden="false"] { display: block; }
+.fp-tableCell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+}
+
+.mid {
+    height: 200px;   
+}
+
+#para {
+    color: #4CAF50;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: chocolate;
+}
+
+h3{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: chocolate;
+}
+
+h4 {
+    color: darkseagreen;
+}
+
+#headings {
+    text-align: center;
+}
